@@ -142,6 +142,7 @@ export function addProd(data) {
 }
 export function delProd(id) {
   // console.log(id)
+  let token = localStorage.getItem("_token");
   return axios.delete(`${MAIN_URL}delprod/${id}`, {
     headers: { authorization: `Bearer ${token}` },
   });

@@ -12,7 +12,7 @@ function TxnList() {
   const [userdata, setUserdata] = useState();
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const [userl, setuser] = useState({})
+  const [userl, setuser] = useState({});
   useEffect(() => {
     tokenAuth().then((res) => {
       console.log(res.data);
@@ -28,9 +28,9 @@ function TxnList() {
       }
     });
     const user = encryptStorage.getItem("user");
-    setuser(user)
+    setuser(user);
     if (user) {
-        const email = user.email;
+      const email = user.email;
 
       if (user.role !== "admin") {
         navigate("/");
