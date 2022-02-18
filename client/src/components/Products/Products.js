@@ -139,7 +139,7 @@ function Products({ search }) {
         encryptStorage.removeItem("user");
         localStorage.removeItem("_token");
         dispatch({ type: "countcalc" });
-        navigate("/")
+        // navigate("/")
         // localStorage.removeItem("cart");
         // dispatch({ type: "count", payload: 0 });
 

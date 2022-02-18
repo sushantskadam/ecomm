@@ -344,7 +344,7 @@ function Login() {
               </Alert>
             </Snackbar>
             <Row>
-              <Col xl={5}>
+             <Col xl={5}>
                 {" "}
                 <br />
                 <br />
