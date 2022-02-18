@@ -1,0 +1,9 @@
+.carouselcss {
+  height: 550px;
+}
+
+@media screen and (max-width: 900px) {
+  .carouselcss {
+    height: 300px;
+  }
+}

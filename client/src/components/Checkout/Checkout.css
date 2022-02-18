@@ -1,0 +1,8 @@
+.selectedcard:active {
+  /* border: 1px solid #adf; */
+
+  background-image: linear-gradient(to top, #adf, #8bf);
+}
+.selectedcard {
+  cursor: pointer;
+}

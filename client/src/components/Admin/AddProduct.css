@@ -1,0 +1,54 @@
+.formadjustadmin {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 40px;
+   
+    box-shadow: 0 10px 25px #d6cd5093;
+  
+    width: 700px;
+    margin: auto;
+  }
+  .button2 {
+    width: 250px;
+  }
+  .cardbtn{
+    width: 200px;
+  }
+ 
+  
+  
+  .submitBtnsignup:hover {
+    background-color: #9867c5;
+    transform: translateY(-2px);
+  }
+  
+  .fontapply {
+    font-family: "Nunito", sans-serif;
+  }
+ 
+  
+ 
+  @media screen and (max-width: 900px) {
+    .formadjustadmin {
+      
+      border-radius: 8px;
+      padding: 20px 40px;
+      width: auto;
+    }
+    
+  }
+  
+  @media screen and (max-width: 500px) {
+    .formadjustqmaker {
+      border-radius: 8px;
+      padding: 20px 40px;
+     
+    }
+    .button2 {
+      margin-top: 8px;
+    }
+    .button2fb {
+      margin-left: 20px;
+    }
+  }
+  

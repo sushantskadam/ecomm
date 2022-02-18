@@ -1,0 +1,26 @@
+.formadjustcart {
+  background-color: white;
+  border-radius: 8px;
+  /* padding: 20px 40px; */
+  box-shadow: 0 10px 25px #00000093;
+}
+.formadjustcartright {
+  background-color: white;
+  border-radius: 2px;
+  /* padding: 20px 40px; */
+  box-shadow: 0 3px 8px #d8d2d293;
+}
+.quantityadjust {
+  width: 50px;
+  /* margin-left: -22px;
+      margin-right: -30px; */
+}
+
+.cartfontapply {
+  font-family: "Ubuntu", sans-serif;
+}
+@media screen and (max-width: 900px) {
+  .quantbttn {
+    display: none;
+  }
+}
